@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam - canvas</title>
+    <script src="main.js" defer></script>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="inputsContainer">
+        <input type="number" placeholder="Enter square width" id="squareWidth"></input>
+        <input type="number" placeholder="Enter square height" id="squareHeight"></input>
+        <input type="number" placeholder="Enter X point" id="xPoint"></input>
+        <input type="number" placeholder="Enter Y point" id="yPoint"></input>
+
+        <p id="sizeCalculation"></p>
+
+        <button id="calcBTN">Calculate</button>
+        <button id="drawBTN" disabled>Draw</button>
+    </div>
+
+    <div class="canvasContainer">
+        <canvas id="myCanvas" width="800" height="600"></canvas>
+        <button id="clearCanvas">Clear canvas</button>
+        <button id="stopRandomDrawing">Stop לחפור לי!</button>
+    </div>
+
+</body>
+
+</html>
